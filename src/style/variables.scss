@@ -1,0 +1,20 @@
+@mixin btnBackground {
+    background: rgb(0, 40, 91);
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    margin-left: 20px;
+}
+
+
+@mixin txtBoxBg {
+    background: transparent;
+    border-radius: 0;
+    padding: 10px;
+    color: #fff;
+    border-top: 0 ! important;
+    border-left: 0 ! important;
+    border-right: 0 ! important;
+    border-bottom: 1px solid #fff ! important;
+    width: 30%;
+}
